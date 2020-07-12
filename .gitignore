@@ -1,17 +1,15 @@
 # Various IDEs and Editors
 .vscode/
 .idea/
+*.iml
 **/*~
-
-# Mac OSX temporary files
-.DS_Store
-**/.DS_Store
-
-# Build artifacts
-canisters/
 
 # dfx temporary files
 .dfx/
 
-# frontend code
+# Build artifacts
+canisters/
+
+# Node
 node_modules/
+package-lock.json
