@@ -9,7 +9,7 @@
 
 # Build artifacts
 canisters/
+dist/
 
 # Node
 node_modules/
-package-lock.json
