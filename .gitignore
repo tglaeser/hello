@@ -7,8 +7,10 @@
 # dfx temporary files
 .dfx/
 
+# dfx generated sources
+src/declarations
+
 # Build artifacts
-canisters/
 dist/
 
 # Node

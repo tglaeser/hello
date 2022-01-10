@@ -9,7 +9,7 @@
         "hello"
       ],
       "frontend": {
-        "entrypoint": "src/hello_assets/public/index.js"
+        "entrypoint": "src/hello_assets/src/index.html"
       },
       "source": [
         "src/hello_assets/assets",
@@ -20,17 +20,12 @@
   },
   "defaults": {
     "build": {
+      "args": "",
       "packtool": ""
     }
   },
-  "dfx": "0.6.14",
+  "dfx": "0.8.4",
   "networks": {
-    "ic": {
-      "providers": [
-        "https://gw.dfinity.network"
-      ],
-      "type": "persistent"
-    },
     "local": {
       "bind": "0.0.0.0:8000",
       "type": "ephemeral"
